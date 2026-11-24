@@ -1742,8 +1742,8 @@
           </svg>
         </div>
         <div>
-          <div class="brand-cn">开阳云音乐</div>
-          <div class="brand-en">KaiYang Cloud Music</div>
+          <div class="brand-cn">修猫云音乐</div>
+          <div class="brand-en">XiuMao Cloud Music</div>
         </div>
       </div>
 
@@ -1913,8 +1913,8 @@
       <div id="playerLeft" class="player-left" title="点击进入歌词界面">
         <div id="miniCover" class="mini-cover-player"></div>
         <div class="mini-info">
-          <div id="miniTitle" class="mini-title">开阳云音乐</div>
-          <div id="miniArtist" class="mini-artist">KaiYang Cloud Music</div>
+          <div id="miniTitle" class="mini-title">修猫云音乐</div>
+          <div id="miniArtist" class="mini-artist">XiuMao Cloud Music</div>
         </div>
         <button id="likeBtn" class="icon-btn" title="喜欢">♡</button>
         <button class="icon-btn" title="列表">☰</button>
@@ -1973,9 +1973,9 @@
       </div>
 
       <div class="lyrics-side">
-        <h1 id="lyricTitle" class="lyric-song-title">开阳云音乐</h1>
+        <h1 id="lyricTitle" class="lyric-song-title">修猫云音乐</h1>
         <div class="lyric-song-meta">
-          <span id="lyricArtist">歌手：KaiYang Cloud Music</span>
+          <span id="lyricArtist">歌手：XiuMao Cloud Music</span>
           <span id="lyricAlbum">专辑：Local Music</span>
         </div>
         <div class="lyric-tabs">
@@ -2003,7 +2003,7 @@
 
   <script>
     /*
-      开阳云音乐 - 本地音乐歌词播放器
+      修猫云音乐 - 本地音乐歌词播放器
       核心原则：
       1. 本地读取，不上传；
       2. mp3 / lrc / 图片按同名文件组合；
@@ -2735,19 +2735,19 @@
     }
 
     function renderDefaultMiniCover() {
-      miniCover.innerHTML = `<div class="mini-cover-default">开</div>`;
+      miniCover.innerHTML = `<div class="mini-cover-default">修</div>`;
     }
 
     function renderDefaultRecordCover() {
-      recordCover.innerHTML = getDefaultCoverHtml("开");
+      recordCover.innerHTML = getDefaultCoverHtml("修");
     }
 
     function renderPlayer() {
       const song = getCurrentSong();
 
       if (!song) {
-        miniTitle.textContent = "开阳云音乐";
-        miniArtist.textContent = "KaiYang Cloud Music";
+        miniTitle.textContent = "修猫云音乐";
+        miniArtist.textContent = "XiuMao Cloud Music";
         likeBtn.textContent = "♡";
         likeBtn.classList.remove("liked");
         playBtn.textContent = "▶";
@@ -2771,8 +2771,8 @@
       const song = getCurrentSong();
 
       if (!song) {
-        lyricTitle.textContent = "开阳云音乐";
-        lyricArtist.textContent = "歌手：KaiYang Cloud Music";
+        lyricTitle.textContent = "修猫云音乐";
+        lyricArtist.textContent = "歌手：XiuMao Cloud Music";
         lyricAlbum.textContent = "专辑：Local Music";
         renderDefaultRecordCover();
         lyricsList.innerHTML = `<div class="lyric-empty">暂无歌词</div>`;
@@ -3058,8 +3058,8 @@
       durationTimeEl.textContent = "00:00";
       updateRangeFill(progressRange);
 
-      miniTitle.textContent = "开阳云音乐";
-      miniArtist.textContent = "KaiYang Cloud Music";
+      miniTitle.textContent = "修猫云音乐";
+      miniArtist.textContent = "XiuMao Cloud Music";
       renderDefaultMiniCover();
       renderDefaultRecordCover();
       lyricsList.innerHTML = `<div class="lyric-empty">暂无歌词</div>`;
