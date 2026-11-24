@@ -3,7 +3,7 @@ const portfolio = {
   name: "张耀",
   shortName: "ZY",
   initials: "ZY",
-  title: "Python 开发与数据采集及其拓展",
+  title: "Python代码开发与数据的采集及其拓展",
   summary: "用代码把开放数据变成可理解的信息。我专注于网页采集、数据清洗与自动化等流程。",
   status: "持续充电中...",
   location: "中国 · 四川",
