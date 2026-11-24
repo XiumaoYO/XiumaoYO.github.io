@@ -7,7 +7,7 @@ const portfolio = {
   summary: "用代码把开放数据变成可理解的信息。我专注于网页采集、数据清洗与自动化等流程。",
   status: "持续充电中...",
   location: "中国 · 四川",
-  email: "27379564422qq.com",
+  email: "2737956442@qq.com",
   github: "https://github.com/XiumaoYO/XiumaoYO.github.io",
   csdn: "https://www.csdn.net/xm_27379511?type=blog",
   gitee: "https://gitee.com/xiumaoyo/xiu-mao_text",
