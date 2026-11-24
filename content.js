@@ -8,7 +8,7 @@ const portfolio = {
   status: "持续充电中...",
   location: "中国 · 四川",
   email: "2737956442@qq.com",
-  github: "https://github.com/Xiumao.github.io",
+  github: "https://github.com/XiumaoYO",
   csdn: "https://www.csdn.net/xm_27379511?spm=1000.2115.3001.5343",
   gitee: "https://gitee.com/xiumaoyo/xiu-mao_text",
   resumeUrl: "",
