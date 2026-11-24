@@ -15,7 +15,7 @@ const portfolio = {
   studyHours: "3600+",
   skillCount: "06",
   about: "我正在系统学习 Python 数据采集与自动化，将要学习AIGC。会将每个项目由一个具体问题出发，完成从抓取、清洗到可视化展示的完整流程。",
-  skills: ["Python", "Requests", "Beautiful Soup", "Selenium", "Pandas", "SQL"，"AIGC"],
+  skills: ["Python", "Requests", "Beautiful Soup", "Selenium", "Pandas", "SQL","AIGC"],
   projects: [
     { category: "analysis", number: "01", title: "闲鱼显卡价格趋势", description: "多月份闲鱼显卡商品数据可视化看板，呈现各品牌价格走势、在售数量与市场热度对比。", tags: ["ECharts", "Data Viz", "价格分析"], link: "Portfolio/价格趋势.html", accent: "blue", bgImage: "Portfolio/bgimgs/显卡价格趋势.png" },
     { category: "analysis", number: "02", title: "程序员私活数据分析大屏", description: "接单平台数据可视化大屏，实时展示项目类型分布、报价趋势与技术栈热度排行。", tags: ["ECharts", "Dashboard", "Data Viz"], link: "Portfolio/index.html", accent: "cyan", bgImage: "Portfolio/bgimgs/程序员私活数据大屏.png" },
