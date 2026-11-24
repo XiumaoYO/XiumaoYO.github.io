@@ -9,7 +9,7 @@ const portfolio = {
   location: "中国 · 四川",
   email: "27379564422qq.com",
   github: "https://github.com/XiumaoYO/XiumaoYO.github.io",
-  csdn: "https://www.csdn.net/xm_27379511?spm=1000.2115.3001.5343",
+  csdn: "https://www.csdn.net/xm_27379511?type=blog",
   gitee: "https://gitee.com/xiumaoyo/xiu-mao_text",
   resumeUrl: "",
   studyHours: "3600+",
